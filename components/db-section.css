@@ -1,0 +1,47 @@
+article {
+  position: relative;
+}
+.db-section {
+  background: #141230;
+  display: grid;
+  justify-content: center;
+  margin: none;
+  color: #fff;
+  width: 100%;
+}
+
+.db-section > .title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5% 0%;
+  display: block;
+  position: relative;
+}
+/*.db-section > .title::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background: #0ca0ab;
+  border-radius: 5px;
+  position: absolute;
+  left: 05px;
+}
+.db-section > .title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: #0ca0ab;
+  border-radius: 5px;
+  position: absolute;
+  left: 650px;
+  bottom: 65px;
+}*/
+.db-section > .title > p {
+  text-align: center;
+}
+.--cor-alternativa {
+  background: #8f9beb;
+}

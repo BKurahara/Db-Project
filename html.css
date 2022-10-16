@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.25 rem;
+
+  background-attachment: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  padding-top: 70px;
+  width: 100%;
+}
+.greetings-wrapper {
+  position: relative;
+}
+.video-background {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.greetings-wrapper > .title {
+  background: rgb(0, 0, 0, 0.6);
+  width: 70%;
+  height: 80px;
+  font-size: 4rem;
+  padding-top: 10px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+
+  z-index: 0;
+  border-radius: 30px;
+  letter-spacing: 5px;
+}
+.db-section > .content {
+  display: grid;
+  justify-items: center;
+  margin: 0%;
+  width: 100%;
+}
+.db-section > .content > .description-mission {
+  text-align: center;
+  padding: 50px 25%;
+}
+.cards-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  margin-top: 50px;
+}

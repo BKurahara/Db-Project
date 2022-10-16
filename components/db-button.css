@@ -1,0 +1,38 @@
+.db-card > button {
+  margin-bottom: 10px;
+  border-radius: 30px;
+  width: 150px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #1c2954;
+  box-shadow: 10px 0 #3752a6 inset;
+}
+.db-card > button:hover {
+  width: 150px;
+  box-shadow: none;
+  transition: 1s;
+  background: #c96d2a;
+}
+
+.db-section > .content-img > .content > .aba > button {
+  width: 80%;
+  height: 30px;
+  border: none;
+  margin: 10px 10% 0 10%;
+  border-radius: 15px;
+  background: #1c2954;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.db-section > .content-img > .content > .aba > button:hover {
+  transition: 1s;
+  background: #c96d2a;
+}
+.db-header > .wrapper > .menu:hover {
+  transition: 1s;
+  background: #c96d2a;
+}

@@ -1,0 +1,39 @@
+.db-header {
+  background: #3752a6;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: -5px;
+  z-index: 5;
+}
+.db-header > .wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.db-header > .wrapper > .logo {
+  margin: 10px;
+}
+
+.db-header > .wrapper > .menu {
+  color: #fff;
+  background: #1c2954;
+  margin-left: 6rem;
+  width: 100px;
+  height: 88px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.db-header > .wrapper > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.db-header > .wrapper > a:hover {
+  color: #1c2954;
+}
