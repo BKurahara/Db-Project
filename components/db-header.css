@@ -1,39 +1,44 @@
 .db-header {
   background: #3752a6;
-  margin: 0;
   width: 100%;
   position: fixed;
   top: -5px;
-  z-index: 5;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
 }
 .db-header > .wrapper {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.db-header > .wrapper > .logo {
-  margin: 10px;
+  width: 95%;
 }
 
 .db-header > .wrapper > .menu {
   color: #fff;
   background: #1c2954;
-  margin-left: 6rem;
   width: 100px;
   height: 88px;
   border: none;
   font-weight: bold;
   letter-spacing: 2px;
+  transition: 1s;
 }
+.db-header > .wrapper > .menu:hover {
+  background: var(--color-secundary);
+}
+
+.db-header > .wrapper > .logo {
+  margin: 10px 0px;
+}
+
 .db-header > .wrapper > a {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-text);
   font-size: 1.1rem;
   font-weight: bold;
-  margin-right: 30px;
+  transition: 0.5s;
 }
 .db-header > .wrapper > a:hover {
-  color: #1c2954;
+  color: var(--color-primary-dark);
 }

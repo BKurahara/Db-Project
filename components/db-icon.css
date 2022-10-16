@@ -1,0 +1,54 @@
+.circle-card-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.circle-card-content > .circle-card-wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.circle-card-content > .circle-card-wrapper > .db-circle-card {
+  display: grid;
+  text-align: center;
+  width: 250px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.circle-card-content > .circle-card-wrapper > .db-circle-card > .icon-button {
+  width: 240px;
+  height: 240px;
+  font-size: 6rem;
+  color: var(--color-text);
+  border: 7px solid var(--color-primary-dark);
+  background: var(--color-primary-light);
+  border-radius: 140px;
+  transition: 1s;
+}
+.circle-card-content
+  > .circle-card-wrapper
+  > .db-circle-card
+  > .icon-button:hover {
+  color: var(--color-secundary);
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary);
+}
+.circle-card-content > .circle-card-wrapper > .db-circle-card > .text {
+  width: 250px;
+  height: 250px;
+  margin-top: 15px;
+}
+.circle-card-content > .circle-card-wrapper > .db-circle-card > .text > .title {
+  padding: 15px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+}
+.circle-card-content
+  > .circle-card-wrapper
+  > .db-circle-card
+  > .text
+  > .information {
+  padding: 15px 0px;
+}

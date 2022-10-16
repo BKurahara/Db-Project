@@ -1,33 +1,26 @@
 .db-section > .content-img {
   display: flex;
-  margin: 0%;
-  width: 100%;
+  justify-content: center;
 }
 .db-section > .content-img > .content {
-  padding-left: 10%;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
-.db-section > .content-img > .content > .intro > h4 {
-  text-align: center;
-  font-size: 1.5rem;
+.db-section > .content-img > .content > .elements-content > .intro > .title {
+  font-size: 2rem;
   font-weight: bold;
-  display: block;
-  width: 1fr;
-}
-.db-section > .content-img > .content > .intro > p {
   text-align: center;
-  padding: 20px 10%;
+  margin: 10px auto;
 }
-.db-section > .content-img > .img {
-  height: 100%;
-  margin-right: 10%;
+.db-section > .content-img > .content > .elements-content > .intro > .text {
+  text-align: center;
+  margin: 10px auto;
+}
+.img-fish {
+  display: flex;
+  justify-content: center;
 }
 .acara {
-  width: 100%;
-}
-
-.aba > p {
-  text-align: center;
-  width: 78%;
-  margin-left: 10%;
-  padding: 20px;
+  max-width: 50%;
 }

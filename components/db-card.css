@@ -2,16 +2,15 @@
   display: grid;
   grid-template-columns: 1;
   justify-items: center;
-  width: 25%;
-  height: 80%;
-  margin-bottom: 300px;
+  width: 250px;
+  height: 400px;
   text-align: center;
   background: #8f9beb;
   border-radius: 20px;
 }
 .db-card {
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 /*.db-card::after {
   content: "";
@@ -24,13 +23,12 @@
   border-radius: 2px;
 }*/
 
-.db-card > h3 {
+.db-card > .title {
   font-size: 1.25rem;
   font-weight: bold;
   padding: 5px;
 }
-.db-card > img {
-  width: 100%;
-  object-fit: content;
-  border-radius: 15px;
+.db-card > .card-img {
+  max-width: 100%;
+  border-radius: 20px;
 }
