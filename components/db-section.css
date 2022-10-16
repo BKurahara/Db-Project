@@ -21,25 +21,23 @@
 }
 .db-section > .title::before {
   content: "";
-
   height: 5px;
   width: 100px;
   background: var(--color-secundary);
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 20%;
   border-radius: 4px;
 }
 
 .db-section > .title::after {
   content: "";
-
   height: 5px;
   width: 100px;
   background: var(--color-secundary);
   position: absolute;
   top: 50%;
-  right: 25%;
+  right: 20%;
   border-radius: 4px;
 }
 .--cor-alternativa {
