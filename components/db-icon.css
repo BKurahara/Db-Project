@@ -35,8 +35,7 @@
   border-color: var(--color-primary);
 }
 .circle-card-content > .circle-card-wrapper > .db-circle-card > .text {
-  width: 250px;
-  height: 250px;
+  height: 230px;
   margin-top: 15px;
 }
 .circle-card-content > .circle-card-wrapper > .db-circle-card > .text > .title {
