@@ -1,0 +1,122 @@
+.db-main {
+  padding-top: var(--db-header-height);
+}
+/* Cabeçalho */
+
+.greetings-wrapper {
+  position: relative;
+}
+.video-background {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.greetings-wrapper > .title {
+  background: rgb(0, 0, 0, 0.6);
+  height: 80px;
+  font-size: 4rem;
+  padding-top: 10px;
+  margin: 0;
+  color: var(--color-text);
+  text-align: center;
+  position: absolute;
+  bottom: 20%;
+  left: 37%;
+  z-index: 0;
+  border-radius: 30px;
+  letter-spacing: 5px;
+}
+
+/* Section 1*/
+
+.db-section > .content {
+  display: flex;
+  justify-content: center;
+}
+
+.db-section > .content > .description-cards {
+  width: 70%;
+  max-width: var(--db-wrapper);
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  grid-gap: 45px;
+  margin: 50px auto;
+}
+
+/* Section 2*/
+
+.db-section > .content-img {
+  display: flex;
+  justify-content: center;
+}
+.db-section > .content-img > .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 70%;
+}
+.db-section > .content-img > .content > .elements-content > .intro > .title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px auto;
+}
+.db-section > .content-img > .content > .elements-content > .intro > .text {
+  text-align: center;
+  margin: 10px auto;
+}
+.img-fish {
+  display: flex;
+  justify-content: center;
+}
+.acara {
+  min-width: 50%;
+  max-width: 50%;
+  object-fit: cover;
+  object-position: left;
+}
+.db-section
+  > .content-img
+  > .content
+  > .elements-content
+  > .accordeon
+  > button {
+  width: 100%;
+  height: 35px;
+  border-radius: 15px;
+  background: var(--color-primary-dark);
+  color: var(--color-text);
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px auto;
+  transition: 1s;
+}
+.db-section
+  > .content-img
+  > .content
+  > .elements-content
+  > .accordeon
+  > button:hover {
+  background: var(--color-secondary);
+}
+.circle-card-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.circle-card-content > .circle-card-wrapper {
+  max-width: var(--db-wrapper);
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Mapa*/
+.map {
+  border-top: 5px solid var(--color-primary-dark);
+  border-bottom: 5px solid var(--color-primary-dark);
+}

@@ -1,17 +1,10 @@
-.db-card > button {
-  margin-bottom: 10px;
-  border-radius: 30px;
+button {
   border: none;
   color: var(--color-text);
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: var(--color-primary-dark);
-  box-shadow: 10px 0 var(--color-primary) inset;
   transition: 1s;
   padding: 5px 15px;
-}
-.db-card > button:hover {
-  box-shadow: none;
-  background: var(--color-secundary);
 }

@@ -1,0 +1,43 @@
+.db-section {
+  background: #141230;
+  color: var(--color-text);
+}
+.db-section.--cor-alternativa {
+  background: var(--color-primary-light);
+}
+
+.db-section.-bg-bubble {
+  background-image: url(/img/PngItem_34239.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+}
+.db-section > .title {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 50px 0px;
+  position: relative;
+}
+.db-section > .title::before {
+  content: "";
+  height: 5px;
+  width: 100px;
+  background: var(--color-secondary);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  border-radius: 4px;
+}
+
+.db-section > .title::after {
+  content: "";
+  height: 5px;
+  width: 100px;
+  background: var(--color-secondary);
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  border-radius: 4px;
+}
