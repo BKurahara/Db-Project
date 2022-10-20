@@ -6,7 +6,11 @@
   display: flex;
   justify-content: center;
 }
-
+@media (man-width: 550px) {
+  .db-header {
+    max-width: var(--db-wrapper-smartphone);
+  }
+}
 .db-header > .wrapper {
   display: flex;
   justify-content: space-between;
@@ -27,6 +31,7 @@
 }
 .db-header > .wrapper > .menu:hover {
   background: var(--color-secondary);
+  cursor: pointer;
 }
 
 .db-header > .wrapper > .logo {
@@ -42,6 +47,7 @@
 }
 .db-header > .wrapper > a:hover {
   color: var(--color-primary-dark);
+  cursor: pointer;
 }
 .sandwitch-icon {
   display: none;
@@ -54,6 +60,7 @@
 .sandwitch-icon:hover {
   color: var(--color-secondary);
   background: var(--color-primary-dark);
+  cursor: pointer;
 }
 @media (max-width: 800px) {
   .db-header {

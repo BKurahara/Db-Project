@@ -1,4 +1,5 @@
 :root {
   --db-wrapper-desktop: 1366px;
   --db-wrapper-tablet: 760px;
+  --db-wrapper-smartphone: 550px;
 }

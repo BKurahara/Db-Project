@@ -2,6 +2,7 @@
   background: #141230;
   color: var(--color-text);
 }
+
 .db-section.--cor-alternativa {
   background: var(--color-primary-light);
 }

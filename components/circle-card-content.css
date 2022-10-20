@@ -31,6 +31,7 @@
   color: var(--color-secondary);
   background: var(--color-primary-dark);
   border-color: var(--color-primary);
+  cursor: pointer;
 }
 .circle-card-content > .circle-card-wrapper > .db-circle-card > .text {
   min-height: 230px;

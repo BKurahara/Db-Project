@@ -11,10 +11,12 @@
   max-width: 100%;
   object-fit: cover;
 }
-@media (max-width: 800px) {
+@media (max-width: 550px) {
+  .video-background {
+    max-width: var(--db-wrapper-smartphone);
+  }
 }
-@media (max-width: 426px) {
-}
+
 .greetings-wrapper > .title {
   background: rgb(0, 0, 0, 0.6);
   height: 80px;
@@ -51,6 +53,11 @@
   .db-section > .content > .description-cards {
     max-width: var(--db-wrapper-tablet);
     width: 90%;
+  }
+  @media (max-width: 550px) {
+    .db-section > .content > .description-cards {
+      max-width: var(--db-wrapper-smartphone);
+    }
   }
 }
 .cards-wrapper {
@@ -133,6 +140,7 @@
   > .accordeon
   > button:hover {
   background: var(--color-secondary);
+  cursor: pointer;
 }
 .circle-card-content {
   display: flex;
