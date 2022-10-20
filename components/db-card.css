@@ -4,16 +4,15 @@
   max-width: 300px;
   width: 25%;
   text-align: center;
-  background: #8f9beb;
+  background: var(--color-primary-light);
   border-radius: 20px;
 }
 @media (max-width: 800px) {
   .db-card {
     width: 100%;
     max-width: 100%;
+    padding-bottom: 20px;
   }
-
-
 }
 .db-card {
   position: relative;
@@ -29,26 +28,34 @@
   border-radius: 20px;
 }
 @media (min-width: 800px) {
-  .db-card.db-card > .card-img{
-  max-width: var(--db-wrapper-smartphone);
+  .db-card.db-card > .card-img {
+    max-width: var(--db-wrapper-smartphone);
     width: 100%;
+  }}
+  .db-card > .text {
+    padding: 5px 15px;
   }
-.db-card > .text {
-  padding: 5px 15px;
-}
-.db-card > button {
-  box-shadow: 10px 0 var(--color-primary) inset;
-  border-radius: 30px;
-  margin: 15px;
-  padding: 20px;
-}
-@media (max-width: 800px) {
   .db-card > button {
-    padding: 20px 200px;
+    box-shadow: 10px 0 var(--color-primary) inset;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 20px;
+  }
+  @media (max-width: 800px) {
+    .db-card > button {
+      padding: 20px 200px;
+    }
+  }
+  @media (max-width: 400px){
+    .db-card > button{
+      padding: 10px 100px;
+      
+    }
+  }
+  .db-card > button:hover {
+    box-shadow: none;
+    background: var(--color-secondary);
+    cursor: pointer;
   }
 }
-.db-card > button:hover {
-  box-shadow: none;
-  background: var(--color-secondary);
-  cursor: pointer;
-}
+

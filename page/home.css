@@ -11,11 +11,6 @@
   max-width: 100%;
   object-fit: cover;
 }
-@media (max-width: 550px) {
-  .video-background {
-    max-width: var(--db-wrapper-smartphone);
-  }
-}
 
 .greetings-wrapper > .title {
   background: rgb(0, 0, 0, 0.6);
@@ -37,6 +32,13 @@
     left: 22%;
   }
 }
+@media (max-width: 400px) {
+  .greetings-wrapper > .title {
+    font-size: 2rem;
+    padding: 15px 10px 5px 10px;
+    left: 10%;
+  }
+}
 /* Section 1*/
 
 .db-section > .content {
@@ -54,10 +56,11 @@
     max-width: var(--db-wrapper-tablet);
     width: 90%;
   }
-  @media (max-width: 550px) {
-    .db-section > .content > .description-cards {
-      max-width: var(--db-wrapper-smartphone);
-    }
+}
+@media (max-width: 400px) {
+  .db-section > .content > .description-cards {
+    max-width: var(--db-wrapper-smartphone);
+    width: 95%;
   }
 }
 .cards-wrapper {
@@ -102,6 +105,11 @@
   font-weight: bold;
   text-align: center;
   margin: 10px auto;
+}
+@media (max-width: 400px) {
+  .db-section > .content-img > .content > .elements-content > .intro > .title {
+    font-size: 1.25rem;
+  }
 }
 .db-section > .content-img > .content > .elements-content > .intro > .text {
   text-align: center;
@@ -162,6 +170,12 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 400px) {
+  .circle-card-content > .circle-card-wrapper {
+    max-width: var(--db-wrapper-smartphone);
+    grid-template-columns: 1fr;
   }
 }
 /* Mapa*/

@@ -21,6 +21,11 @@
   padding: 50px 0px;
   position: relative;
 }
+@media (max-width: 400px) {
+  .db-section > .title {
+    font-size: 1.75rem;
+  }
+}
 .db-section > .title::before {
   content: "";
   height: 5px;

@@ -10,6 +10,12 @@
     width: auto;
   }
 }
+
+@media (max-width: 400px) {
+  .circle-card-content > .circle-card-wrapper > .db-circle-card {
+    margin-bottom: 20px;
+  }
+}
 .circle-card-content
   > .circle-card-wrapper
   > .db-circle-card
