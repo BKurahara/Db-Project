@@ -1,6 +1,7 @@
 footer {
   background: var(--color-footer);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 footer > .content {
@@ -19,10 +20,13 @@ footer > .content > .contact {
   line-height: 25px;
   color: var(--color-text);
 }
-footer > .content > .contact > .copy {
+footer > .copy {
+  display: block;
   font-size: 0.75rem;
   padding-top: 10px;
-  grid-column: 1/-1;
+  color: var(--color-text);
+  text-align: center;
+  padding: 10px 0px 20px 0px;
 }
 footer > .content > .social-media {
   display: grid;
@@ -51,4 +55,28 @@ footer > .content > .social-media > div > .footer-icon {
 footer > .content > .social-media > div > .footer-icon:hover {
   background: var(--color-secondary);
   border-color: var(--color-primary-dark);
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  footer > .content {
+    display: grid;
+    grid-template-columns: auto;
+
+    justify-content: center;
+    max-width: var(--db-wrapper-tablet);
+  }
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 15px 0px;
+  }
+  footer > .content > .contact {
+    padding: 15px 0px;
+  }
+  footer > .content > .social-media {
+    justify-content: center;
+  }
+  footer > .content > .social-media > .follow {
+    padding: 15px 0px;
+  }
 }

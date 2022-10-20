@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
 }
+
 .db-header > .wrapper {
   display: flex;
   justify-content: space-between;
@@ -41,4 +42,30 @@
 }
 .db-header > .wrapper > a:hover {
   color: var(--color-primary-dark);
+}
+.sandwitch-icon {
+  display: none;
+  font-size: 1.75rem;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 52%;
+  transition: 1s;
+}
+.sandwitch-icon:hover {
+  color: var(--color-secondary);
+  background: var(--color-primary-dark);
+}
+@media (max-width: 800px) {
+  .db-header {
+    border-bottom: 5px solid var(--color-secondary);
+  }
+  .db-header > .wrapper > .menu {
+    display: none;
+  }
+  .db-header > .wrapper > a {
+    display: none;
+  }
+  .sandwitch-icon {
+    display: block;
+  }
 }

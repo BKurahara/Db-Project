@@ -41,3 +41,11 @@
   right: 20%;
   border-radius: 4px;
 }
+@media (max-width: 800px) {
+  .db-section > .title::after {
+    display: none;
+  }
+  .db-section > .title::before {
+    display: none;
+  }
+}

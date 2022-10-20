@@ -7,6 +7,12 @@
   background: #8f9beb;
   border-radius: 20px;
 }
+@media (max-width: 800px) {
+  .db-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
 .db-card {
   position: relative;
   z-index: 1;
@@ -28,6 +34,11 @@
   border-radius: 30px;
   margin: 15px;
   padding: 20px;
+}
+@media (max-width: 800px) {
+  .db-card > button {
+    padding: 20px 200px;
+  }
 }
 .db-card > button:hover {
   box-shadow: none;

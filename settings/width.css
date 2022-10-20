@@ -1,3 +1,4 @@
 :root {
-  --wrapper-width: 1366px;
+  --db-wrapper-desktop: 1366px;
+  --db-wrapper-tablet: 760px;
 }
