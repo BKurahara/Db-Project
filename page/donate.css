@@ -1,0 +1,22 @@
+.donate-main {
+  padding-top: var(--db-wrapper-desktop);
+}
+.db-section {
+  display: flex;
+  justify-content: center;
+}
+
+.db-section > .img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: var(--db-wrapper-desktop);
+  width: 80%;
+  padding: 200px 0px;
+}
+.db-section > .img-container > .image {
+  max-width: 100%;
+}
+
+.db-section > .img-container > .image > img {
+  max-width: 100%;
+}

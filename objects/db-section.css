@@ -3,7 +3,7 @@
   color: var(--color-text);
 }
 
-.db-section.--cor-alternativa {
+.db-section.--alternative-color {
   background: var(--color-primary-light);
 }
 
@@ -47,7 +47,7 @@
   right: 20%;
   border-radius: 4px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .db-section > .title::after {
     display: none;
   }

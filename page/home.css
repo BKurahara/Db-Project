@@ -84,7 +84,7 @@
 .db-section > .content-img > .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 70%;
+  width: 75%;
   max-width: var(--db-wrapper-desktop);
 }
 @media (max-width: 800px) {
@@ -122,8 +122,6 @@
 .acara {
   min-width: 50%;
   max-width: 50%;
-  object-fit: cover;
-  object-position: left;
 }
 .db-section
   > .content-img
