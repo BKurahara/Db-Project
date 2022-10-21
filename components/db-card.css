@@ -46,7 +46,7 @@
     width: 80%;
   }
 }
-}
+
 .db-card > button:hover {
   box-shadow: none;
   background: var(--color-secondary);
