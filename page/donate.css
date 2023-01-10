@@ -1,5 +1,5 @@
 .donate-main {
-  padding-top: var(--db-wrapper-desktop);
+  padding-top: var(--db-header-height);
 }
 .db-section {
   display: flex;
@@ -10,13 +10,54 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: var(--db-wrapper-desktop);
-  width: 80%;
+  width: 70%;
   padding: 200px 0px;
 }
+
 .db-section > .img-container > .image {
   max-width: 100%;
 }
 
 .db-section > .img-container > .image > img {
   max-width: 100%;
+}
+.db-section > .img-container > .container {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+.db-section > .img-container > .container > div > .title {
+  font-size: 2.75 rem;
+}
+.db-section > .img-container > .container > div > .title {
+  font-weight: bold;
+  font-size: 2.75rem;
+}
+
+.step {
+  color: var(--color-secondary);
+}
+.value {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+.value > .text-value {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.db-section > .img-container > .container > .donate-title {
+  padding-top: 20px;
+}
+.db-section > .img-container > .container > form > .venc-cvv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2;
+}
+
+.text-value {
+  color: var(--color-secondary);
+  text-align: center;
 }

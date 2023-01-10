@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="/components/db-card.css">
   <link rel="stylesheet" href="/components/db-button.css">
   <link rel="stylesheet" href="/components/db-accordion.css">
-  <link rel="stylesheet" href="/components/db-work.css">
+  <link rel="stylesheet" href="components/menu-active.css">
   <link rel="stylesheet" href="/components/circle-card-content.css">
   <link rel="stylesheet" href="/components/db-footer.css">
   <!-- Page-->
@@ -37,10 +37,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Fontes -->
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Thambi+2">
+
 
   <title>DB Aqua</title>
+  <!-- Javascript -->
+  <script src="js/accordion.js" defer></script>
+  <script src="js/db_menu_btn.js" defer></script>
 </head>
 
 
@@ -51,6 +53,14 @@
       <img class="logo" src="/img/logo-3.svg" alt="Logo-DB">
       <button class="sandwitch-icon"><i class="fa-solid fa-bars"></i></button>
       <a href="@">Faça já a sua doação!</a>
+    </div>
+    <div class="menu-container ">
+      <ul>
+        <li><a href="@">Nossa empresa</a></li>
+        <li><a href="@">Nossa história</a></li>
+        <li><a href="@">Galeria</a></li>
+        <li><a href="@">Contato</a></li>
+      </ul>
     </div>
   </header>
   <main class="db-main">
@@ -106,17 +116,17 @@
                 <p class="text">Para manter um aquário saudável é preciso ter diversos cuidados e par aisso blablablabalPara manter um aquário saudável é preciso ter diversos cuidados e par aisso blablablabalPara manter um aquário saudável é preciso ter diversos cuidados e par aisso blablablabalPara manter um aquário saudável é preciso ter diversos cuidados e par aisso blablablabalPara manter um aquário saudável é preciso ter diversos </p>
 
               </div>
-              <div class="accordeon">
-                <button>1°passo - Compra</button>
-                <p class="text-compra">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
+              <div class="accordeon " id="accordion">
+                <button id="accordionBtn0">1°passo - Compra</button>
+                <p class="text-compra closed">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
               </div>
-              <div class="accordeon">
-                <button>2°passo - quarentena</button>
-                <p class="text-quarentena">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
+              <div class="accordeon" id="accordion">
+                <button id="accordionBtn1">2°passo - quarentena</button>
+                <p class="text-quarentena closed">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
               </div>
-              <div class="accordeon">
-                <button>3° passo - acliamtação</button>
-                <p class="text-aclimatacao">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
+              <div class="accordeon" id="accordion">
+                <button id="accordionBtn2">3° passo - acliamtação</button>
+                <p class="text-aclimatacao closed">A quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquárioA quarentena é um momento muito importante, pois é o tempo em que uma doença pode se manifestar em um animal. Medidas simples como essa irá proteger os outros peixes do aquário</p>
               </div>
             </div>
             <div class="img-fish">

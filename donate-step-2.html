@@ -32,6 +32,8 @@
   <link rel="stylesheet" href="/components/db-work.css">
   <link rel="stylesheet" href="/components/circle-card-content.css">
   <link rel="stylesheet" href="/components/db-footer.css">
+  <link rel="stylesheet" href="/components/text-box.css">
+  <link rel="stylesheet" href="components/menu-active.css">
   <!-- Page-->
   <link rel="stylesheet" href="/page/donate.css">
   <!-- Icon -->
@@ -42,7 +44,8 @@
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Thambi+2">
 
   <title>Db Aqua - Donate</title>
-
+  <!-- Javascript -->
+  <script src="js/db_menu_btn.js" defer></script>
 </head>
 
 <body>
@@ -53,6 +56,14 @@
       <button class="sandwitch-icon"><i class="fa-solid fa-bars"></i></button>
       <a href="@">Faça já a sua doação!</a>
     </div>
+    <div class="menu-container ">
+      <ul>
+        <li><a href="@">Nossa empresa</a></li>
+        <li><a href="@">Nossa história</a></li>
+        <li><a href="@">Galeria</a></li>
+        <li><a href="@">Contato</a></li>
+      </ul>
+    </div>
   </header>
   <main class="donate-main">
     <section class="db-section --alternative-color">
@@ -62,23 +73,33 @@
         </div>
         <div class="container">
           <div>
-            <h1 class="title">Sua doação irá mudar vidas! (<span class="step">passo1 de 2)</span></h1>
+            <h1 class="title">Sua doação irá mudar vidas! <span class="step">Passo 2 de 2</span></h1>
           </div>
           <form>
-            <label for="name">Nome *</label>
-            <input type="text" required id="name">
-            <label for="email">email *</label>
-            <input type="email" required id="email">
-            <label for="nasc">Data de nascimento</label>
-            <input type="date" required id="nasc">
+            <div class="text-box">
+              <label for="card-number">Número do Cartão *</label>
+              <input class="box" type="card-number" required id="card-number">
+            </div>
+            <div class="text-box">
+              <label for="name">Nome do Titular *</label>
+              <input class="box" type="email" required id="name">
+            </div>
+            <div class="venc-cvv">
+              <div class="text-box">
+                <label for="venc">Vencimento(mm/yy)</label>
+                <input class="box" type="date" required id="venc">
+              </div>
+              <div class="text-box">
+                <label for="cvv">CVV</label>
+                <input class="box" type="date" required id="cvv">
+              </div>
+            </div>
           </form>
-          <div class="donate-value">
-            <h2>Valor para a doação</h2>
-          </div>
-          <div>
-            <button class="minos-botton"></button>
-            <p class="value">10 reais</p>
-            <button class="plus-button"></button>
+          <div class="donate-title">
+            <h2>Confirmar valor para a doação</h2>
+            <div class="value">
+              <p class="text-value">10 reais</p>
+            </div>
           </div>
         </div>
       </div>

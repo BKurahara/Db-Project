@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Generic -->
+  <link rel="stylesheet" href="/generic/box-sizing.css">
+  <link rel="stylesheet" href="/generic/reset.css">
+
+  <!-- Settings -->
+  <link rel="stylesheet" href="/settings/color.css">
+  <link rel="stylesheet" href="/settings/text.css">
+  <link rel="stylesheet" href="/settings/width.css">
+  <link rel="stylesheet" href="/settings/core.css">
+  <link rel="stylesheet" href="/settings/acordeon.css">
+
+  <!-- Base -->
+  <link rel="stylesheet" href="/base/ancor.css">
+  <link rel="stylesheet" href="/base/font-size.css">
+
+  <!-- Objects -->
+  <link rel="stylesheet" href="/objects/db-section.css">
+
+  <!-- Components -->
+  <link rel="stylesheet" href="/components/db-header.css">
+  <link rel="stylesheet" href="/components/db-card.css">
+  <link rel="stylesheet" href="/components/db-button.css">
+  <link rel="stylesheet" href="/components/db-accordion.css">
+  <link rel="stylesheet" href="/components/db-work.css">
+  <link rel="stylesheet" href="/components/circle-card-content.css">
+  <link rel="stylesheet" href="/components/db-footer.css">
+  <link rel="stylesheet" href="/components/text-box.css">
+  <link rel="stylesheet" href="components/menu-active.css">
+  <!-- Page-->
+  <link rel="stylesheet" href="/page/donate.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Javascript -->
+  <script src="js/db_menu_btn.js" defer></script>
+  <script src="js/donate.js" defer></script>
+  <!-- Fontes -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Lato">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Thambi+2">
+
+  <title>Db Aqua - Donate</title>
+
+</head>
+
+<body>
+  <header class="db-header">
+    <div class="wrapper">
+      <button class="menu">Home</button>
+      <img class="logo" src="/img/logo-3.svg" alt="Logo-DB">
+      <button class="sandwitch-icon"><i class="fa-solid fa-bars"></i></button>
+      <a href="@">Faça já a sua doação!</a>
+    </div>
+    <div class="menu-container ">
+      <ul>
+        <li><a href="@">Nossa empresa</a></li>
+        <li><a href="@">Nossa história</a></li>
+        <li><a href="@">Galeria</a></li>
+        <li><a href="@">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="donate-main">
+    <section class="db-section --alternative-color">
+      <div class="img-container">
+        <div class="image">
+          <img src="/img/Tropheus.png" alt="Peixe ciclídeo africano">
+        </div>
+        <div class="container">
+          <div>
+            <h1 class="title">Sua doação irá mudar vidas! <span class="step">Passo 1 de 2</span></h1>
+          </div>
+          <form>
+            <div class="text-box">
+              <label for="name">Nome *</label>
+              <input class="box" type="text" required id="name">
+            </div>
+            <div class="text-box">
+              <label for="email">Email *</label>
+              <input class="box" type="email" required id="email">
+            </div>
+            <div class="text-box">
+              <label for="nasc">Data de nascimento</label>
+              <input class="box" type="date" required id="nasc">
+            </div>
+          </form>
+          <div class="donate-title">
+            <h2>Valor para a doação</h2>
+            <div class="value">
+              <button class="minus-button"><i class="fa-solid fa-minus"></i></button>
+              <p id="donate-value" class="text-value">10 reais</p>
+              <button class="plus-button"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1401.953563499227!2d-46.69590555813838!3d-23.60565339395464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1665765094530!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <footer>
+    <div class="content">
+      <div class="footer-logo"> <img src="/img/logo-footer.svg" alt="logo"></div>
+
+      <div class="contact">
+        <i class="fa-solid fa-phone"></i>
+        <p>(11)8888-8888</p>
+
+        <i class="fa-solid fa-envelope"></i>
+        <p>dbaqua@reylis.com</p>
+
+        <i class="fa-solid fa-map"></i>
+        <p>rua do valão,666 - Buraco/Cotia-SP</p>
+      </div>
+      <div class="social-media">
+        <h5 class="follow">follow us</h5>
+        <div>
+          <button class="footer-icon"><i class="fa-brands fa-twitter"></i></button>
+          <button class="footer-icon"><i class="fa-brands fa-square-facebook"></i></button>
+          <button class="footer-icon"><i class="fa-brands fa-instagram"></i></i></button>
+          <button class="footer-icon">
+            <i class="fa-brands fa-square-google-plus"></i></button>
+        </div>
+      </div>
+
+    </div>
+    <div class="copy">
+      <p> Copyrigh&copy; 2022 - Danayan ltda.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

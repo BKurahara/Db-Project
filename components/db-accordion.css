@@ -1,9 +1,3 @@
-.text-compra {
-  display: var(--acordeon-closed);
-}
-.text-quarentena {
-  display: var(--acordeon-closed);
-}
-/*.text-aclimatacao {
-   display: var(--acordeon-closed)
+.closed {
+  display: var(--accordion-closed);
 }

@@ -1,0 +1,27 @@
+.db-section > .img-container > .container > form > .text-box > .box {
+  width: 90%;
+  height: 35px;
+  border-radius: 5px;
+  border: 3px solid var(--color-primary);
+  margin-top: 5px;
+}
+.db-section > .img-container > .container > form > .text-box {
+  padding: 5px 0px;
+}
+
+.db-section > .img-container > .container > form > .venc-cvv > .text-box {
+  width: 60%;
+  padding-top: 10px;
+}
+.db-section
+  > .img-container
+  > .container
+  > form
+  > .venc-cvv
+  > .text-box
+  > .box {
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  border: 3px solid var(--color-primary);
+}
